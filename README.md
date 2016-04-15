@@ -43,7 +43,7 @@ mod 'validation_script',
   :git => 'https://github.com/firechiefs/validation_script',
   :ref => '1.0.0'
 
-mod 'profile_dotnet',
+mod 'profile_windowsfeatures',
   :git => 'https://github.com/firechiefs/profile_windowsfeatures',
   :ref => '1.0.0'
 ```
