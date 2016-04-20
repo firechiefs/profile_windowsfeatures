@@ -3,9 +3,9 @@
 Installs windowsfeatures in hiera via create_resources stlib function
 
 ## HIERA DATA:
-
+```
 profile::windowsfeatures:
-
+```
 Should be dsc_windowsfeature hash of resource hashes as documented here:
 https://forge.puppetlabs.com/puppetlabs/dsc#adding-or-removing-windows-features
 
