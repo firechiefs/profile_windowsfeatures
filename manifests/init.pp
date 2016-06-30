@@ -19,6 +19,9 @@
 # puppet module install puppetlabs-dsc
 
 class profile_windowsfeatures {
+  # Windows Features requires DSC class
+  require profile_dsc
+
   # HIERA LOOKUP:
   # --> PUPPET CODE VARIABLES:
   # merge all Feature data into one hash
